@@ -1,0 +1,44 @@
+aside{
+    width: 20%;
+    height: 100vh;
+    background-color: white;
+}
+
+.aside-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    margin-top:50px;
+}
+
+.aside-container > *{
+    font-size: 19px;
+    width: 80%;
+    background-color: transparent;
+    border: 0;
+    text-align: left;
+    cursor: pointer;
+}
+
+.demo{
+    background-color: royalblue;
+    height:100px;
+    width: 100px;
+    border-radius: 100%;
+    margin-bottom: 30px;
+}
+
+.logout{
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}

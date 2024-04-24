@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 12px 5%;
+    width: 100%;
+    background-color: white;
+}
+
+.add-product-nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #186FD4;
+    color: white;
+    padding: 14px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    border: 0;
+    border-radius: 15px;
+}

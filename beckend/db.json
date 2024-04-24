@@ -1,0 +1,102 @@
+{
+  "users": [
+    {
+      "id": "d543",
+      "name": "Behzod",
+      "email": "bek@mail.ru",
+      "password": "1",
+      "tel": "+99899"
+    },
+    {
+      "id": "9a0a",
+      "name": "Behzod",
+      "email": "bak@mail.ru",
+      "password": "123",
+      "tel": "+9"
+    },
+    {
+      "id": "a7ca",
+      "name": "Behzod",
+      "email": "bek_uzb@mail.ru",
+      "password": "qwerty",
+      "tel": "+99833"
+    },
+    {
+      "id": "6c36",
+      "name": "Muhammad",
+      "email": "muhammad@mail.ru",
+      "password": "1",
+      "tel": "+998935081818"
+    },
+    {
+      "id": "cbb9",
+      "password": "1",
+      "email": "admin@mail.ru"
+    },
+    {
+      "id": "e610",
+      "password": "as",
+      "email": "bak@mail.ru"
+    },
+    {
+      "id": "ffb2",
+      "password": "1",
+      "email": "admin@mail.ru"
+    },
+    {
+      "id": "9769",
+      "password": "1",
+      "email": "behzodsharifjonov7@gmail.com"
+    },
+    {
+      "id": "9d6c",
+      "password": "1q",
+      "email": "bak@mail.ru"
+    },
+    {
+      "id": "32ab",
+      "password": "1",
+      "email": "behzodsharifjonov7@gmail.com"
+    },
+    {
+      "id": "2a5c",
+      "password": "1",
+      "email": "admin@mail.ru"
+    },
+    {
+      "id": "44bf",
+      "password": "1",
+      "email": "admin@mail.ru"
+    }
+  ],
+  "product": [
+    {
+      "id": "0116",
+      "user_name": "Behzod",
+      "name": "Preforator",
+      "phone": "+9 983 370 99 939",
+      "price": "123"
+    },
+    {
+      "id": "da55",
+      "user_name": "Behzod",
+      "name": "Preforator",
+      "phone": "+998-337-099-939",
+      "price": "290"
+    },
+    {
+      "id": "7935",
+      "user_name": "",
+      "name": "",
+      "phone": "",
+      "price": ""
+    },
+    {
+      "id": "3f99",
+      "user_name": "",
+      "name": "",
+      "phone": "",
+      "price": ""
+    }
+  ]
+}

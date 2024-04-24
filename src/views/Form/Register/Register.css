@@ -1,0 +1,102 @@
+li{
+    list-style: none;
+}
+
+.register{
+    height: 100vh;
+    width: 100%;
+    padding: 12px 5%;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.forms h5{
+    color: silver;
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+.login-button-register{
+    font-size: 25px;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    text-decoration: underline;
+    color: #186FD4;
+    margin-top: 20px;
+}
+
+.icons{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.icons > *{
+    color: #186FD4;
+    font-size: 40px;
+}
+
+.form-register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+    padding-top: 100px;
+}
+
+form > *{
+    width: 500px;
+    padding: 16px 24px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #186FD4;
+}
+
+form > button{
+    background-color: #186FD4;
+    color: white;
+}
+
+.form-img img{
+    height: 80vh;
+    width: 100%;
+    border-radius: 50px;
+}
+
+
+@media screen and (max-width:767px){
+    .form-img img{
+        display: none;
+    }
+    form > *{
+        width: 400px;
+    }
+    .form-register{
+        gap: 5px;
+        width: 100%;
+    }
+    li{
+        margin: 20px 30px;
+    }
+
+    .register{
+        padding: 5px 2%;
+    }
+}
