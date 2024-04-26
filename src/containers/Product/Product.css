@@ -1,0 +1,62 @@
+.product{
+    width: 100%;
+}
+
+.product-parent{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    overflow-x: auto;
+    margin: 20px;
+}
+
+.product-card{
+    background-color: white;
+    width: 400px;
+    padding: 12px 20px;
+    border-radius: 20px;
+    height: 320px;
+    position: relative;
+}
+
+
+.product-image{
+    height: 180px;
+    width: 180px;
+    text-align: left;
+    text-align: center;
+}
+
+.product-title{
+    font-size: 19px;
+    font-weight: 400;
+    padding:20px 0;
+}
+
+.product-price{
+    color: #003B73;
+    position: absolute;
+    bottom: 20px;
+    left: 25px;
+    font-size: 20px;
+}
+
+.product-heart-status-btn{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.product-heart-status-btn > button{
+    padding: 4px 6px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #003B73;
+    color: #003B73;
+
+}

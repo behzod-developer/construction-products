@@ -1,5 +1,5 @@
 import axios from 'axios'
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import Logo from '../../../assets/Logo.png'
 import './Login.css'
 import { user_api } from '../../../API_URL'
@@ -7,9 +7,11 @@ import { FaInstagram } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { useNavigate } from 'react-router-dom'
+import { Context } from '../../../App'
 
 function Login() {
     const navigate = useNavigate()
+    const {setLogin} = useContext(Context)
     const addFormHendler = e => {
         e.preventDefault()
 
@@ -31,6 +33,7 @@ function Login() {
 
                     console.log('Response:', response.data);
                     navigate('/')
+                    setLogin(true)
                 }
                 else{
                     alert('xatolik bor')

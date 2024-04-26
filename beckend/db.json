@@ -67,6 +67,51 @@
       "id": "44bf",
       "password": "1",
       "email": "admin@mail.ru"
+    },
+    {
+      "id": "5cca",
+      "password": "1",
+      "email": "admin@mail.ru"
+    },
+    {
+      "id": "153b",
+      "password": "1",
+      "email": "bak@mail.ru"
+    },
+    {
+      "id": "10a5",
+      "password": "1",
+      "email": "admin@mail.ru"
+    },
+    {
+      "id": "35e3",
+      "password": "1",
+      "email": "admin@mail.ru"
+    },
+    {
+      "id": "a75f",
+      "password": "1",
+      "email": "admin@mail.ru"
+    },
+    {
+      "id": "a69b",
+      "password": "1",
+      "email": "admin@mail.ru"
+    },
+    {
+      "id": "4b9f",
+      "password": "1",
+      "email": "admin@mail.ru"
+    },
+    {
+      "id": "dd4e",
+      "password": "1",
+      "email": "admin@mail.ru"
+    },
+    {
+      "id": "4fc1",
+      "password": "1",
+      "email": "admin@mail.ru"
     }
   ],
   "product": [
@@ -97,6 +142,14 @@
       "name": "",
       "phone": "",
       "price": ""
+    },
+    {
+      "id": "a8f3",
+      "user_name": "Behzod",
+      "name": "Preforator",
+      "phone": "+9 983 370 99 939",
+      "price": "1212",
+      "description": "zocvcxvc"
     }
   ]
 }
