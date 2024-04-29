@@ -45,13 +45,13 @@ function Register() {
 
     return (
         <div className='register'>
-            <nav>
+            <div>
                 <ul>
                     <li>
                         <img src={Logo} alt="" />
                     </li>
                 </ul>
-            </nav>
+            </div>
             <div className='form-register'>
                 <div className="forms">
                     <form onSubmit={addFormHendler} action="">

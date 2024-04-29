@@ -4,6 +4,9 @@ import Aside from '../../containers/aside/Aside'
 import './Home.css'
 import Product from '../../containers/Product/Product'
 import Charts from '../../containers/Charts/Charts'
+import Swipers from '../../containers/Swiper/Swiper'
+
+
 
 function Home() {
   return (
@@ -13,7 +16,9 @@ function Home() {
         <Navbar />
         <Product />
         <div className="child-container">
-          <div></div>
+          <div>
+            {/* <Swipers  /> */}
+          </div>
           <div>
             <Charts />
           </div>

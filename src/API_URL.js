@@ -16,33 +16,33 @@ export const product_get = 'https://fakestoreapi.com/products'
 export const chart_data = [
     {
       "name": "Sell",
-      "uv": 4000,
-      "pv": 2400
+      "current month": 4000,
+      "a month ago": 2400
     },
     {
       "name": "Product",
-      "uv": 2700,
-      "pv": 1398
+      "current month": 2700,
+      "a month ago": 1398
     },
     {
       "name": "Top",
-      "uv": 2000,
-      "pv": 6800
+      "current month": 2000,
+      "a month ago": 6800
     },
     {
       "name": "Call",
-      "uv": 2780,
-      "pv": 3908
+      "current month": 2780,
+      "a month ago": 3908
     },
     {
       "name": "Interes",
-      "uv": 1890,
-      "pv": 4800
+      "current month": 1890,
+      "a month ago": 4800
     },
     {
       "name": "All product",
-      "uv": 2390,
-      "pv": 3800
+      "current month": 2390,
+      "a month ago": 3800
     }
   ]
   

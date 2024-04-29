@@ -7,3 +7,9 @@
 .container{
     width: 85%;
 }
+
+.child-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

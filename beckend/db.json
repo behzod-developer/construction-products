@@ -112,6 +112,16 @@
       "id": "4fc1",
       "password": "1",
       "email": "admin@mail.ru"
+    },
+    {
+      "id": "47ca",
+      "password": "1",
+      "email": "admin@mail.ru"
+    },
+    {
+      "id": "a10c",
+      "password": "1",
+      "email": "admin@mail.ru"
     }
   ],
   "product": [

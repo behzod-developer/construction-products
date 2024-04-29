@@ -30,7 +30,6 @@ function Login() {
                      password, email
                 });
                 if(email == 'admin@mail.ru' && password == '1'){
-
                     console.log('Response:', response.data);
                     navigate('/')
                     setLogin(true)
@@ -51,13 +50,13 @@ function Login() {
     return (
         <>
             <div className='register'>
-                <nav>
+                <div>
                     <ul>
                         <li>
                             <img src={Logo} alt="" />
                         </li>
                     </ul>
-                </nav>
+                </div>
                 <div className='form-register'>
                     <div className="forms">
                         <form onSubmit={addFormHendler} action="">

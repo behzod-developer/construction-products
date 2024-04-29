@@ -5,6 +5,7 @@ import Login from "./views/Form/Log In/Login"
 import AddProduct from "./views/add_product/AddProduct"
 import { createContext, useEffect, useState } from "react"
 import ProtecttedRoute from "./ProtecttedRoute"
+import Detail from "./views/Detail/Detail"
 
 export const Context = createContext()
 
@@ -22,6 +23,7 @@ function App() {
       <Routes>
         <Route element={<ProtecttedRoute />}>
           <Route path={'/'} element={<Home />} />
+          <Route path={'detail/:id'} element={<Detail />} />
           <Route path={'add_product'} element={<AddProduct />} />
         </Route>
         <Route path="register" element={<Register />} />
