@@ -5,6 +5,7 @@ import './Home.css'
 import Product from '../../containers/Product/Product'
 import Charts from '../../containers/Charts/Charts'
 import Swipers from '../../containers/Swiper/Swiper'
+import AsideMedia from '../../containers/aside/AsideMedia'
 
 
 
@@ -23,6 +24,7 @@ function Home() {
             <Charts />
           </div>
         </div>
+      <AsideMedia />
       </div>
     </div>
   )

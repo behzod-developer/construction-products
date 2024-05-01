@@ -38,11 +38,6 @@ export const chart_data = [
       "name": "Interes",
       "current month": 1890,
       "a month ago": 4800
-    },
-    {
-      "name": "All product",
-      "current month": 2390,
-      "a month ago": 3800
     }
   ]
   

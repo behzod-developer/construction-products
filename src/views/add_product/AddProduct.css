@@ -6,3 +6,14 @@
     background-color: transparent;
     border: none;
 }
+.add-product-form form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.add-product-form form > *{
+    width: 80%;
+}

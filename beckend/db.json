@@ -122,6 +122,35 @@
       "id": "a10c",
       "password": "1",
       "email": "admin@mail.ru"
+    },
+    {
+      "id": "f37a",
+      "name": "Behzod",
+      "email": "behzodsharifjonov7@gmail.com",
+      "password": "1",
+      "tel": "+998337099939"
+    },
+    {
+      "id": "cc6f",
+      "password": "1",
+      "email": "admin@mail.ru"
+    },
+    {
+      "id": "7e3e",
+      "name": "Behzod",
+      "email": "admin@mail.ru",
+      "password": "2",
+      "tel": "+99899"
+    },
+    {
+      "id": "9faf",
+      "password": "1",
+      "email": "bak@mail.ru"
+    },
+    {
+      "id": "2517",
+      "password": "1",
+      "email": "admin@mail.ru"
     }
   ],
   "product": [

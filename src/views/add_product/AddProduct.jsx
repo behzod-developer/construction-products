@@ -48,7 +48,7 @@ function AddProduct() {
     }
 
     return (
-        <div>
+        <div className='add-product-form'>
             <button onClick={CloseBtn} className='close-btn'><IoClose /></button>
             <form onSubmit={addProductHandler} action="">
                 <input required  type="text" name='user_name' placeholder='your name' />

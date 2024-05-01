@@ -18,30 +18,33 @@ function Login() {
         const forms = new FormData(e.target)
         const {  email, password } = Object.fromEntries(forms.entries())
 
-        const newData = {
-            email,
-            password
-        }
 
+        // async function postData() {
+        //     try {
+        //         const response = await axios.post(user_api, {
+        //              password, email
+        //         });
+        //         if(email == 'admin@mail.ru' && password == '1'){
+        //             console.log('Response:', response.data);
+        //             navigate('/')
+        //             setLogin(true)
+        //         }
+        //         else{
+        //             alert('xatolik bor')
+        //         }
+        //     } catch (error) {
+        //         console.error('Error:', error);
+        //     }
+        // }
+        // postData();
 
-        async function postData() {
-            try {
-                const response = await axios.post(user_api, {
-                     password, email
-                });
-                if(email == 'admin@mail.ru' && password == '1'){
-                    console.log('Response:', response.data);
-                    navigate('/')
-                    setLogin(true)
-                }
-                else{
-                    alert('xatolik bor')
-                }
-            } catch (error) {
-                console.error('Error:', error);
-            }
+        if(email == 'admin@mail.ru' && password == 1){
+            navigate('/')
+            setLogin(true)
         }
-        postData();
+        else{
+            console.log('xatolik bor')
+        }
     }
 
     function LoginNavigate() {

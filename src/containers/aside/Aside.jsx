@@ -6,9 +6,9 @@ import { Context } from '../../App';
 
 function Aside() {
     const navigate = useNavigate()
-    const {setLogin} = useContext(Context)
+    const { setLogin } = useContext(Context)
 
-    function  Logout(){
+    function Logout() {
         navigate('/login')
         setLogin(false)
     }

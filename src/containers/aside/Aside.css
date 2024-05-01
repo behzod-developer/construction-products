@@ -42,3 +42,58 @@ aside{
     gap: 10px;
     cursor: pointer;
 }
+
+
+
+/* aside-media */
+
+.aside-menu{
+    position: fixed!important;
+    display: none;
+    bottom: 0;
+    width: 80%;
+    background-color: white;
+}
+
+.aside-media-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aside-media-container > * {
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+}
+
+.aside-profil-logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 1px solid lightblue;
+}
+
+.add-media{
+    background-color: royalblue;
+    color: white;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+@media screen and (max-width:767px){
+    aside{
+        display: none;
+    }
+    .aside-menu{
+        display: block;
+        position: fixed;
+        width: 100%;
+        padding: 5px;
+    }
+}

@@ -86,7 +86,7 @@ form > button{
         display: none;
     }
     form > *{
-        width: 400px;
+        width: 100%;
     }
     .form-register{
         gap: 5px;

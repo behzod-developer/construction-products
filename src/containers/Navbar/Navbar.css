@@ -1,11 +1,18 @@
 nav {
     display: flex;
     justify-content: space-between;
+    padding: 12px 5%;
     align-items: center;
     height: 80px;
-    padding: 12px 5%;
     width: 100%;
     background-color: white;
+}
+
+.logout-navbar {
+    display: none;
+    background-color: transparent;
+    font-size: 30px;
+    border: none;
 }
 
 .add-product-nav {
@@ -19,4 +26,14 @@ nav {
     font-weight: 500;
     border: 0;
     border-radius: 15px;
+}
+
+@media screen and (max-width:767px) {
+    .add-product-nav {
+        display: none;
+    }
+
+    .logout-navbar {
+        display: flex;
+    }
 }
