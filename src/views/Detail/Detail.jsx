@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { useParams, useNavigate } from 'react-router'
 import { product_get } from '../../API_URL'
 import './Detail.css'
+import { FaPenToSquare } from "react-icons/fa6";
 import { IoClose } from "react-icons/io5";
 
 function Detail() {
@@ -12,7 +13,7 @@ function Detail() {
 
 
     function CloseBtn(){
-        navigate('/')
+        navigate(-1)
     }
 
     useEffect(() => {
@@ -35,7 +36,7 @@ function Detail() {
                     <img className='detail-image' src={detailPage?.image} alt="" />
                 </div>
                 <div className="detail-2">
-                    <h2 className='detail-title'>{detailPage?.title}</h2>
+                    <h2 className='detail-title'>{detailPage?.title}   <button className='put-product'><FaPenToSquare /></button> </h2>
                     <p className='detail-description'>{detailPage?.description}</p>
                     <span className='detail-category'>{detailPage?.category}</span>
                     <b className='detail-price'>{detailPage?.price} som</b>

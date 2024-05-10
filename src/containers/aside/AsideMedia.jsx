@@ -3,32 +3,35 @@ import './Aside.css'
 import { IoHome } from "react-icons/io5";
 import { IoSearch } from "react-icons/io5";
 import { IoMdAdd } from "react-icons/io";
-import { useNavigate } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import { FaRegHeart } from "react-icons/fa";
 
 function AsideMedia() {
     const navigate = useNavigate()
-    function Product() {
+
+    function addPost(){
         navigate('/add_product')
     }
+    
+
     return (
         <div className='aside-menu'>
             <div className="aside-media-container">
-                <button>
+                <NavLink to={'./'}>
                     <IoHome />
-                </button>
-                <button>
+                </NavLink>
+                <NavLink to={'./all_product'}>
                     <IoSearch />
-                </button>
-                <button onClick={Product} className='add-media'>
+                </NavLink>
+                <button onClick={addPost} className='add-media-btn'>
                     <IoMdAdd />
                 </button>
-                <button>
+                <NavLink to={'./heart'}>
                     <FaRegHeart />
-                </button>
-                <button>
+                </NavLink>
+                <NavLink to={'./profile'}>
                     <img src='https://cdn1.iconfinder.com/data/icons/website-internet/48/website_-_male_user-512.png' className='aside-profil-logo' alt="" />
-                </button>
+                </NavLink>
             </div>
         </div>
     )

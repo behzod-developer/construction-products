@@ -14,10 +14,13 @@ function Navbar() {
     function LogOut(){
         navigate('./login')
     }
+    function Home(){
+        navigate('/')
+    }
     return (
         <nav>
             <li>
-                <img src={Logo} alt="" />
+                <img onClick={Home} src={Logo} alt="" />
             </li>
             <ul>
                 <li>

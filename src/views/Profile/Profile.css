@@ -1,0 +1,38 @@
+.profile{
+    background-color: white;
+    margin: 15px;
+    border-radius: 15px;
+    height: 60vh;
+    position: relative;
+}
+
+.profile h1{
+    padding: 10px 20px;
+}
+
+.profile-image{
+    width: 100%;
+    background-image: url('https://img.freepik.com/free-photo/soft-vintage-gradient-blur-background-with-pastel-colored-well-use-as-studio-room-product-presentation-banner_1258-71429.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.profile-image img{
+    margin: 20px;
+}
+
+.profile-datas{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px 20px;
+}
+
+.profile .pen{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 20px;
+}

@@ -51,6 +51,14 @@
     font-size: 24px;
 }
 
+.put-product{
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    color: #186FD4;
+    cursor: pointer;
+}
+
 @media screen and (max-width:767px){
     .detail-container{
         display: grid;
@@ -59,6 +67,7 @@
         padding: 20px 10px;
         text-align: center;
         width: 100%;
+        padding: 10px 10%;
     }
     .detail-2{
         width: 100%;

@@ -12,17 +12,20 @@ export const Context = createContext()
 function App() {
   const [login, setLogin] = useState(JSON.parse(localStorage.getItem('login')) || false)
   const [userProducts, setUserProducts] = useState(JSON.parse(localStorage.getItem('userProducts')) || [])
+  const [userData, setUserData] = useState(JSON.parse(localStorage.getItem('userData')) || {})
+
 
   useEffect(() => {
     localStorage.setItem('login', login)
     localStorage.setItem('userProduct', JSON.stringify(userProducts))
-  }, [login, userProducts])
+    localStorage.setItem('userData', JSON.stringify(userData))
+  }, [login, userProducts, userData])
 
   return (
-    <Context.Provider value={{ login, setLogin, userProducts, setUserProducts }}>
+    <Context.Provider value={{ login, setLogin, userProducts, setUserProducts, userData, setUserData }}>
       <Routes>
         <Route element={<ProtecttedRoute />}>
-          <Route path={'/'} element={<Home />} />
+          <Route path={'/*'} element={<Home />} />
           <Route path={'detail/:id'} element={<Detail />} />
           <Route path={'add_product'} element={<AddProduct />} />
         </Route>
