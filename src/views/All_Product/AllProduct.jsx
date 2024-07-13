@@ -9,6 +9,7 @@ function AllProduct() {
     const isSuccess = true;
     const [allProductDate, setAllProductDate] = useState([])
 
+
     useEffect(() => {
         async function fetchDate() {
             try {
@@ -23,6 +24,7 @@ function AllProduct() {
     },[])
 
     console.log(allProductDate)
+commit    console.log('hello world')
     
     return (
         <div className='all-product'>
