@@ -24,7 +24,7 @@ function AllProduct() {
     },[])
 
     console.log(allProductDate)
-    console.log('hello world')
+commit    console.log('hello world')
     
     return (
         <div className='all-product'>
