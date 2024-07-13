@@ -8,6 +8,7 @@ import { Route, Routes } from 'react-router-dom'
 import Main from '../Main/Main'
 import AllProduct from '../All_Product/AllProduct'
 import Profile from '../Profile/Profile'
+import Heart from '../Heart/Heart'
 
 
 
@@ -26,6 +27,7 @@ function Home() {
             <Route element={<Main />} path='/'/>
             <Route path={'all_product'} element={<AllProduct />} />
             <Route path={'profile'} element={<Profile />} />
+            <Route path={'heart'} element={<Heart />} />
           </Routes>
         </div>
         <AsideMedia />

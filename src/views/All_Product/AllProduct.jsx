@@ -13,7 +13,7 @@ function AllProduct() {
         async function fetchDate() {
             try {
                 const get_date = await axios.get(product_get)
-                setAllProductDate(get_date.data)
+                setAllProductDate(get_date?.data)
             }
             catch(err){
                 console.log(err)
@@ -21,6 +21,7 @@ function AllProduct() {
         }
         fetchDate()
     },[])
+
     console.log(allProductDate)
     
     return (

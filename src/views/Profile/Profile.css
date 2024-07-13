@@ -6,8 +6,19 @@
     position: relative;
 }
 
-.profile h1{
+.profile-chart > *{
+    background-color: red;
+    z-index: 10;
+}
+
+.profile .profile-heading{
     padding: 10px 20px;
+}
+
+.profile-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .profile-image{
@@ -26,7 +37,7 @@
 .profile-datas{
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
     padding: 20px 20px;
 }
 
@@ -34,5 +45,13 @@
     position: absolute;
     top: 20px;
     right: 20px;
+    font-size: 20px;
+}
+
+.profile-datas b{
+    font-size: 20px;
+}
+
+.profile-container main{
     font-size: 20px;
 }

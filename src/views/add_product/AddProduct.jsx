@@ -21,8 +21,6 @@ function AddProduct() {
         const forma = new FormData(e.target)
         const formValues=Object.fromEntries(forma.entries())
         // 4ta 
-       
-
 
         // code for photo
 
